@@ -3,6 +3,8 @@
 ![Optimization Visualization](BFGS_Method.png)  
 *Visualization of BFGS descent on a R3 function*
 
+<br>
+
 ## 📚 Project Overview
 Three implementations of numerical optimization methods in Python:
 
@@ -10,6 +12,7 @@ Three implementations of numerical optimization methods in Python:
 2. **Finite Difference Analysis** (Derivative Approximation & ODE Solver)
 3. **Multivariate Optimization** (Gradient Descent, Newton's Method, BFGS)
 
+<br>
 
 ## 🎯 Achievements Implemented
 
@@ -18,6 +21,8 @@ Three implementations of numerical optimization methods in Python:
 | Gradient Descent  | Armijo line search, Finite differences   | 58            |
 | Newton's Method   | Hessian regularization, Safeguards       | 72            |
 | BFGS              | Inverse Hessian approximation            | 45            |
+
+<br>
 
 ## 📝 Theoretical Background
 

@@ -11,14 +11,6 @@ Three implementations of numerical optimization methods in Python:
 3. **Multivariate Optimization** (Gradient Descent, Newton's Method, BFGS)
 
 
-## 🔧 Key Implementations
-
-### 1. Numerical Integration 
-
-### 2. Finite Differences
-
-### 3. Optimization Methods
-
 ## 🎯 Achievements Implemented
 
 | Method            | Features Implemented                     | Lines of Code |

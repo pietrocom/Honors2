@@ -1,7 +1,7 @@
 # Calculus 2 Honors Projects - UFPR
 
-![Optimization Visualization](demo.png)  
-*Visualization of gradient descent on Rosenbrock's function*
+![Optimization Visualization](BFGS_Method.png)  
+*Visualization of BFGS descent on a R3 function*
 
 ## 📚 Project Overview
 Three implementations of numerical optimization methods in Python:

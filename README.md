@@ -19,8 +19,6 @@ Three implementations of numerical optimization methods in Python:
 
 ### 3. Optimization Methods
 
-## 🎯 Achievements Completed
-
 ## 🎯 Achievements Implemented
 
 | Method            | Features Implemented                     | Lines of Code |

@@ -284,8 +284,8 @@ def hess_newton(x):
     return np.array([[12*x[0]**2-4,-1],[-1,2]])
 #x, k = newton(f_newton,np.array([5,5]),grad_newton,hess_newton,alpha=1e0,eps = 1e-6,plot=True)
 #print(f"Newton sem Sal. Guar.: x = {x}, iterações = {k}")
-#x, k = newton_salvaguardas(f_newton,np.array([5,5]),grad_newton,hess_newton, search=True ,alpha=1e0,eps = 1e-6,plot=True)
-#print(f"Newton com BL: x = {x}, iterações = {k}")
+x, k = newton_salvaguardas(f_newton,np.array([5,5]),grad_newton,hess_newton, search=True ,alpha=1e0,eps = 1e-6,plot=True)
+print(f"Newton com BL: x = {x}, iterações = {k}")
 #x, k = newton_salvaguardas(f_newton,np.array([5,5]),grad_newton,hess_newton, search=False ,alpha=1e0,eps = 1e-6,plot=True)
 #print(f"Newton sem BL: x = {x}, iterações = {k}")
 #x, k = bfgs(f_newton, np.array([5,5]), grad_newton, hess_newton, eps = 1e-6, fd=True, plot=True)
@@ -332,17 +332,17 @@ def hess3(x):
 
 # ---------- Plotagem e aplicacao ----------
 # Gradiente Descendente para f1 
-x1, k1 = gd(f1, np.array([1, 1]), grad=grad1, alpha=0.1, fd=False, plot=True, search=True)
-print(f"Passo fixo: x = {x1}, iterações = {k1}")
+#x1, k1 = gd(f1, np.array([1, 1]), grad=grad1, alpha=0.1, fd=False, plot=True, search=True)
+#print(f"Passo fixo: x = {x1}, iterações = {k1}")
 
 # Diferenças finitas para f2 
-x5, k5 = gd(f2, np.array([0, 0]), grad=grad2, alpha=0.1, eps=1e-8, fd=True, plot=True, search=False)
-print(f"Diferenças finitas: x = {x5}, iterações = {k5}")
+#x5, k5 = gd(f2, np.array([0, 0]), grad=grad2, alpha=0.1, eps=1e-8, fd=True, plot=True, search=False)
+#print(f"Diferenças finitas: x = {x5}, iterações = {k5}")
 
 # Busca linear para f3 
-x9, k9 = gd(f3, np.array([1, 0]), grad=grad3, fd=True, plot=True, search=True)
-print(f"Busca linear: x = {x9}, iterações = {k9}")
+#x9, k9 = gd(f3, np.array([1, 0]), grad=grad3, fd=True, plot=True, search=True)
+#print(f"Busca linear: x = {x9}, iterações = {k9}")
 
 # Newton
-x, k = newton_salvaguardas(f2, np.array([2, 2]), grad2, hess2, eps=1e-5, alpha=0.1, itmax=10000, fd=False, h=1e-7, plot=True, search=True, tau=0.5, alpha_init=1.0, gama=0.1)
-print(f"Newton SG: x = {x}, iterações = {k}")
+#x, k = newton_salvaguardas(f2, np.array([2, 2]), grad2, hess2, eps=1e-5, alpha=0.1, itmax=10000, fd=False, h=1e-7, plot=True, search=True, tau=0.5, alpha_init=1.0, gama=0.1)
+#print(f"Newton SG: x = {x}, iterações = {k}")

@@ -13,7 +13,7 @@ Three implementations of numerical optimization methods in Python:
 
 ## 🔧 Key Implementations
 
-### 1. Numerical Integration (`projeto1.py`)
+### 1. Numerical Integration 
 
 ### 2. Finite Differences
 
